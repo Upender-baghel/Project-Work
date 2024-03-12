@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative; 
+}
+
+
+
+
+.jumbotron {
+    position: absolute;
+    border-radius: 20px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+    background: linear-gradient(45deg, rgb(44, 62, 110), rgba(156, 134, 10, 0.318));
+    padding: 20px;
+}

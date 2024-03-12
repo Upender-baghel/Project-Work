@@ -1,0 +1,32 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative; 
+}
+
+
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.jumbotron {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(42, 52, 77);
+    background: linear-gradient(45deg, rgb(44, 62, 110), rgba(156, 134, 10, 0.298));
+    z-index: 1; 
+    padding: 20px;
+    border-radius: 5%;
+}
+input ,textarea{
+    outline: none;
+    background-color: transparent;
+}
+

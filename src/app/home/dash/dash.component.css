@@ -1,0 +1,24 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative; 
+}
+.card-body{
+    background: transparent;
+    background: linear-gradient(45deg, rgba(42, 52, 77, 0.729), rgba(255, 217, 0, 0.099));
+}
+
+
+
+
+.jumbotron {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    z-index: 1; 
+    padding: 20px;
+}
